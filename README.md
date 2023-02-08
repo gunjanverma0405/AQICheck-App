@@ -3,6 +3,7 @@
 * Added Location using Geolocator
 * Added AQI and Pollutants Level using OpenWeatherMap API
 * Used syncfusion_flutter_gauges for AQI Level Range Diagram
+* Changed colors of AQI box and pollutants level box according to AQI 
 
 # Video for the demonstration of the app:
 
