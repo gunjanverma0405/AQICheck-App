@@ -12,8 +12,8 @@ Link for the video: https://drive.google.com/file/d/1Em6SvISND4rmyr85kA6uFgdX5KE
 # Screenshots of App:
 
 
-<img src="./Output Screen/LocationAccessScreen.jpg" width="200" height="400" />
+<img src="./Output Screen/LocationAccessScreen.jpg" width="250" height="500" />
 
-<img src="./Output Screen/LoadingScreen.jpg" width="200" height="400" />
+<img src="./Output Screen/LoadingScreen.jpg" width="250" height="500" />
 
-<img src="./Output Screen/OutputScreen.jpg" width="200" height="400" />
+<img src="./Output Screen/OutputScreen.jpg" width="250" height="500" />
