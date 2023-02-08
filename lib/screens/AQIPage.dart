@@ -1,9 +1,6 @@
-import 'dart:developer';
-
 import 'package:aqi_app/widgets/card.dart';
 import 'package:flutter/material.dart';
 import 'package:aqi_app/services/aqi.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:syncfusion_flutter_gauges/gauges.dart';
 
 class AQIPage extends StatefulWidget {
@@ -181,7 +178,7 @@ class _AQIPageState extends State<AQIPage> {
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
-                              SizedBox(
+                              const SizedBox(
                                 height: 5,
                               ),
                               Text(

@@ -1,4 +1,3 @@
-import 'package:aqi_app/screens/AQIPage.dart';
 import 'package:aqi_app/screens/loading_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';

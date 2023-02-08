@@ -7,10 +7,13 @@ class MyCardWidget extends StatelessWidget {
   final Color? aqiColor;
 
   MyCardWidget(
-      {required this.pollutants, required this.levels, required this.aqiColor});
+      {super.key,
+      required this.pollutants,
+      required this.levels,
+      required this.aqiColor});
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       width: 380,
       height: 250,
       child: Card(
