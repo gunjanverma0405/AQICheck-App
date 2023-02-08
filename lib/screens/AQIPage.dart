@@ -50,22 +50,21 @@ class _AQIPageState extends State<AQIPage> {
       levels['PM 10'] = aqiData['list'][0]['components']['pm10'];
       levels['NH\u2083'] = aqiData['list'][0]['components']['nh3'];
       if (aqi == 1) {
-        qname = "Good";
+        qname = "Good, Satisfactory";
         aqiColor = const Color.fromARGB(255, 11, 167, 17);
       } else if (aqi == 2) {
-        qname = "Fair";
+        qname = "Fair, Acceptable";
         aqiColor = const Color.fromARGB(255, 128, 219, 116);
       } else if (aqi == 3) {
-        qname = "Moderate";
+        qname = "Moderate, Unhealthy";
         aqiColor = const Color(0xFFFFBA00);
       } else if (aqi == 4) {
-        qname = "Poor";
+        qname = "Poor, Very Unhealthy";
         aqiColor = const Color.fromARGB(255, 216, 105, 31);
       } else if (aqi == 5) {
-        qname = "Very Poor";
+        qname = "Very Poor, Hazardous";
         aqiColor = const Color.fromARGB(255, 171, 0, 0);
       }
-      qname = "$qname Air Quality Index";
     });
   }
 
@@ -91,7 +90,7 @@ class _AQIPageState extends State<AQIPage> {
                 child: Column(
                   children: [
                     SizedBox(
-                      height: 300,
+                      height: 350,
                       child: SfRadialGauge(
                         axes: <RadialAxis>[
                           RadialAxis(
@@ -170,15 +169,30 @@ class _AQIPageState extends State<AQIPage> {
                       color: aqiColor,
                       child: SizedBox(
                         width: 300,
-                        height: 50,
+                        height: 70,
                         child: Center(
-                          child: Text(
-                            '$qname',
-                            style: const TextStyle(
-                              fontSize: 20,
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                            ),
+                          child: Column(
+                            children: [
+                              Text(
+                                "Air Quality Index: $aqi",
+                                style: const TextStyle(
+                                  fontSize: 25,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 5,
+                              ),
+                              Text(
+                                '$qname',
+                                style: const TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ),
