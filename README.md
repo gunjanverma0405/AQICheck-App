@@ -1,16 +1,19 @@
-# aqi_app
+# AQICheck-App
 
-A new Flutter project.
+Added Location using Geolocator
+Added AQI and Pollutants Level using OpenWeatherMap API
+Used syncfusion_flutter_gauges for AQI Level Range Diagram
 
-## Getting Started
+* **Video for the demonstration of the app:**
 
-This project is a starting point for a Flutter application.
+Link for the video: https://drive.google.com/file/d/1Em6SvISND4rmyr85kA6uFgdX5KEAKM02/view?usp=sharing
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Screenshot of App:**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+<img src="./Output Screen/LocationAccessScreen.jpg" width="200" height="400" />
+
+<img src="./Output Screen/LoadingScreen.jpg" width="200" height="400" />
+
+<img src="./Output Screen/OutputScreen.jpg" width="200" height="400" />
