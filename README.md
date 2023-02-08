@@ -1,8 +1,8 @@
 # AQICheck-App
 
-Added Location using Geolocator
-Added AQI and Pollutants Level using OpenWeatherMap API
-Used syncfusion_flutter_gauges for AQI Level Range Diagram
+* Added Location using Geolocator
+* Added AQI and Pollutants Level using OpenWeatherMap API
+* Used syncfusion_flutter_gauges for AQI Level Range Diagram
 
 * **Video for the demonstration of the app:**
 
