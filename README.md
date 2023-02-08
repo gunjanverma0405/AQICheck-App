@@ -9,7 +9,7 @@
 Link for the video: https://drive.google.com/file/d/1Em6SvISND4rmyr85kA6uFgdX5KEAKM02/view?usp=sharing
 
 
-* **Screenshot of App:**
+# Screenshots of App:
 
 
 <img src="./Output Screen/LocationAccessScreen.jpg" width="200" height="400" />
